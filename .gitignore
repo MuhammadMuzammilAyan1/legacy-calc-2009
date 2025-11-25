@@ -1,0 +1,11 @@
+*.[oa]
+*~
+*.o
+clac
+*.exe
+*.mk
+build/
+nbproject/
+.sconsign.dblite
+loanCalculator
+moc*.cc
