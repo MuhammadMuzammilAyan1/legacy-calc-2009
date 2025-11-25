@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    const string infile = "input.txt";
+    const string infile = "config.txt";
 
     ifstream fin(infile.c_str());
     if (!fin.is_open())
