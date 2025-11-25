@@ -10,13 +10,11 @@ const int Loan::MAX_YEARS = 10000;
 
 Loan::Loan()
     : principal(0.0L), annualRatePercent(0.0L), years(0)
-{
-}
+    {}
 
 Loan::Loan(long double principal_, long double annualRatePercent_, int years_)
     : principal(principal_), annualRatePercent(annualRatePercent_), years(years_)
-{
-}
+    {}
 
 void Loan::setPrincipal(long double p) { principal = p; }
 void Loan::setAnnualRatePercent(long double r) { annualRatePercent = r; }
