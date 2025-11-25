@@ -1,5 +1,8 @@
 *.[oa]
 *~
+*.o
+clac
+*.exe
 *.mk
 build/
 nbproject/
